@@ -39,7 +39,7 @@ package slide_show;
 	          driver.findElement(By.xpath(".//*[@id='_submit']")).click();
 	          driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 	          driver.findElement(By.xpath(".//*[@id='special-post-button-197991']")).click();
-	          // hello test
+	         
 	          //Click on Featured post button
 	         Select list=new Select(driver.findElement(By.xpath(".//*[@id='special-priority-197991']")));
 	         list.selectByValue("5");
